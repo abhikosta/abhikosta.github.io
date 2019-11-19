@@ -1,0 +1,520 @@
+html{
+	scroll-behavior: smooth;
+}
+*{
+	padding: 0 0 0 0;
+	margin: 0 0 0 0;
+	box-sizing: border-box;
+}
+ul{
+	margin: 0;
+	padding: 0;
+}
+@font-face {
+  font-family: futur;
+  src: url(./font/Futura-Bold.ttf); 
+}
+@font-face {
+  font-family: futur-l;
+  src: url(./font/Futura-Light.ttf); 
+}
+@font-face {
+  font-family: Futura-Heavy;
+  src: url(./font/Futura-Light.ttf); 
+}
+body{
+  font-family: 'Space Mono', monospace;
+  background: #fff;
+}
+section{
+	width: 100%;
+	float: left;
+	position: relative;
+
+}
+header{
+	width: 100%;
+background-color: #555;
+height: 71px;
+z-index: 9;
+}
+nav .menu li{
+list-style: none;
+
+display: inline-block;
+
+width: 35px;
+
+height: 37px;
+
+border: 1px solid #000;
+
+border-radius: 50%;
+
+line-height: 37px;
+
+text-align: center;
+}
+nav .menu{
+	margin-top: 10px;
+}
+nav .menu li a{
+	color: #000;	
+
+	font-size: 20px;
+	font-family: 'Space Mono', monospace;
+	font-weight: 400;
+	text-transform: uppercase;
+}
+
+
+section h4{
+	float: left;
+	text-align: justify;
+	font-weight: 400;
+	font-family: futur;
+	color: #000;
+	z-index: 99;
+	font-size: 52px;
+	letter-spacing: 0.5px;
+}
+
+
+ .carousel-item 
+        {
+         height: 100vh;
+         background: no-repeat left bottom fixed;
+         background-size: 100% 100%;
+         color: #000;
+         }
+#second-slider .carousel-item,#third-slider .carousel-item 
+        {
+         height: 100vh;
+        
+         }
+#fifth-slider .carousel-item 
+        {
+         height: 100vh;
+        
+         }
+#first-slider .carousel-caption{
+	width: auto;
+    right: 5%;
+    top: 35%;
+transform: translate(0,-50%);
+}
+         
+.carousel-control-next-icon{
+    padding: 15px;
+    margin-left: 78%;
+}
+.carousel-control-prev-icon{
+    padding: 15px;
+    margin-left: -78%;
+}
+
+#second-slider .carousel-caption{
+	float: right;
+	top: 20%;
+}
+
+#fourth-slider .carousel-caption{
+	top: 20px;
+}
+#fifth-slider .carousel-caption{
+	left: 25%;
+	top: 60px;
+}
+#fifth-slider .carousel-caption h4{
+	width: auto;
+}
+.white{
+	color: #fff;
+}
+
+.start-sec nav{
+position: relative;
+text-align: right;
+right: -12%;
+}
+.start-sec .carousel-caption{
+width: auto;
+top: 0;
+
+}
+.start-sec .parth-profile {
+text-align: center;
+position: relative;
+top: 10%;
+padding: 10px 10px 0;
+display: inline-block;
+
+}
+.start-sec .parth-profile h4{
+text-align: center;
+font-weight: 400;
+letter-spacing: 1px;
+float: none;
+color: #fff;
+padding:25px 0px 10px;
+background: url(../images/br-bg.png);
+background-size: cover;
+width: 500px;
+}
+.start-sec p{
+	color: #333;
+}
+.start-sec .parth-profile .scientist{
+	color: #fff;
+	background: url(../images/bl-br-bg.png);
+background-size: cover;
+padding:40px 0px 12px;
+font-size: 17px;
+margin-top: -15px;
+
+}
+.start-sec .carousel-item{
+	height: 100vh;
+}
+.explore i{
+	border:1px solid #000;
+	border-radius: 50%;
+	padding:4px;
+	margin-right: 5px;
+}
+.explores{
+top:85% !important;
+}
+.start-sec .interesting {
+    text-align: right;
+
+position: relative;
+
+top: 20%;
+
+background: #fff;
+
+padding: 10px 10px 0;
+
+display: inline-block;
+
+float: right;
+
+width: 352px;
+
+right: -110px;
+}
+.bottom-arrow {
+
+    position: relative;
+    top: 80%;
+    text-align: center;
+    display: inline-block;
+    padding: 10px;
+    left: 20%;
+}
+.my-caption h4{
+	background: url(../images/bl-br-bg1.png);
+	background-size: cover;
+	color: #fff;
+	padding: 25px 20px 12px;
+	letter-spacing: 0.5px;
+	width: 100%;
+	text-align: center;
+
+}
+.agriculture h4,.water-crises h4{
+	background: url(../images/bl-br-bg1.png);
+	background-size: cover;
+	color: #fff;
+	padding: 25px 40px 12px;
+	width: 100%;
+	text-align: center;
+}
+.satelite h4{
+	background: url(../images/wt-br-bg.png);
+	background-size: cover;
+	color: #ffffff;
+	padding: 25px 40px 12px;
+	text-align: center;
+}
+.tax h4{
+	background: url(../images/tax.png);
+	background-size: cover;
+	color: #fff;
+	padding: 25px 30px 12px;
+	text-align: center;
+	font-size: 42px;
+	background-position: center;
+}
+.crime{
+	background: url(../images/bg.png);
+	background-size: cover;
+	color: #fff;
+	font-size: 52px;
+	padding: 25px 20px 12px;
+	text-align: center;
+	background-position: center;
+}
+#first-slider .carousel-caption p{
+	color: #000;
+width: auto;
+font-style: italic;
+clear: both;
+}
+
+.my-caption{
+	position: relative;
+    /* top: 67%; */
+    width: auto;
+    transform: translate(0,-50%);
+    display: inline-block;
+
+    
+}
+.agriculture,.water-crises {
+
+    float: right;
+    position: relative;
+    right: -260%;
+    margin-top: -126%;
+
+}
+#second-slider h4{
+	float: right;
+}
+.satelite{
+	position: relative;
+	right: -250%;
+	margin-top: -120%;
+}
+.tax{
+	position: relative;
+	right: -243%;
+	margin-top: -120%;
+}
+.economic{
+ float: right;
+ position: relative;
+ right: -9%;
+ margin-top: -30%;
+	
+}
+.economic h4{
+	background: url(../images/bl-br-bg1.png);
+	background-size: cover;
+	color: #fff;
+	padding: 20px 80px 15px;
+	text-align: center;
+	background-position: center;
+}
+.third-sec .carousel-caption{
+	width: auto;
+	top: 0;
+}
+.urbanization {
+    position: relative;
+    left: -34%;
+    top: 20%;
+}
+.urbanization h4,.viirs h4,.aadhar h4{
+	background: url(../images/bl-br-bg1.png);
+	background-size: cover;
+	color: #fff;
+	padding: 20px 60px 15px;
+	text-align: center;
+	background-position: center;
+}
+.viirs{
+    position: relative;
+    left: -6%;
+    top: 20%;
+}
+.aadhar{
+	position: relative;
+    left: -6%;
+    top: 20%;
+}
+.enhanced{
+float: right;
+left: 15%;
+top: 2%;
+position: relative;
+width: auto;
+background: url(../images/br-bg.png);
+	background-size: cover;
+	background-position: center;
+}
+.enhanced h4{
+	font-size: 32px;
+	
+	color: #fff;
+	padding: 30px 50px 20px;
+}
+.training h4{
+	background: url(../images/br-bg.png);
+	background-size: cover;
+	background-position: center;
+	padding: 10px 120px 10px;
+	color: #fff;
+	font-size: 42px;
+}
+
+.fourth-sec:after{
+	position: absolute;
+    top: 0;
+    left: 0;
+    content: '';
+    background: #fff;
+    opacity: -0.5;
+    z-index: 9;
+    width: 100%;
+    height: 100%;
+}
+.fourth-sec .carousel-control-prev, .carousel-control-next{
+ z-index: 99;
+
+}
+.dynamic {
+   float: right;
+position: relative;
+left: 17%;
+top: 5%;
+text-align: left;
+background: url(../images/br-bg.png);
+	background-size: cover;
+	background-position: center;
+}
+.dynamic h4{
+	color: #fff;
+	font-size: 32px;
+	padding: 30px 50px 20px;
+}
+.grid {
+    position: relative;
+    float: right;
+    top: 15%;
+}
+.grid h4{
+	background: url(../images/bg.png);
+	background-size: cover;
+	color: #fff;
+	padding: 20px 30px 15px;
+	text-align: center;
+	background-position: center;
+}
+.about{
+	background: #eee;
+	position: relative;
+	padding: 0 0 40px;
+}
+.me{
+  width: 50%;
+  margin-top: 15%;
+   margin-left: 20%;
+}
+.me h4{
+	font-style: italic;
+}
+.me p{
+	display: block;
+	clear: both;
+}
+.about-icon ul{
+	list-style: none;	
+}
+.trees{
+	float: right;
+position: relative;
+left: 14%;
+top: 5%;
+}
+.trees h4{
+		background: url(../images/wt-br-bg.png);
+	background-size: cover;
+	background-position: center;
+	padding: 10px 40px 10px;
+	color: #000;
+	font-size: 42px;
+}
+
+.computer h4{
+	background: url(../images/wt-br-bg.png);
+	background-size: cover;
+	background-position: center;
+	padding: 10px 40px 10px;
+	color: #000;
+	font-size: 42px;
+}
+.night{
+ float: right;
+}
+.night h4{
+	background: url(../images/wt-br-bg.png);
+	background-size: cover;
+	background-position: center;
+	padding: 10px 40px 10px;
+	color: #000;
+	font-size: 42px;
+
+}
+
+.p-img {
+width: 220px;
+height: 225px;
+border-radius: 100%;
+text-align: center;
+margin: auto;
+    margin-bottom: auto;
+margin-bottom: 10px;
+
+}
+.p-img img{
+	width: 100%;
+border: 1px solid #000;
+padding: 5px;
+border-radius: 100%;
+height: 100%;
+}
+
+.img1{
+  margin-left: -42% !important;
+  margin-top: 6% !important;
+}
+.img2{
+margin-left: 104%;
+margin-top: -161%;
+}
+.tex{
+  margin-left: 113%;
+    margin-top: -130%;
+    width: 80% !important;
+}
+.col-md-6{
+	width: 50%;
+}
+.caption1{
+	margin-top: 22%;
+    margin-left: 17%;
+}
+.tex2{
+	font-size: 20px;
+	margin-left: 50%;
+	margin-top: 5%
+}
+.caption2{
+	margin-top: 5%;
+    margin-left: 37%;
+}
+.caption3{
+	margin-top: 5%;
+    margin-left: -40%;
+}
+.caption4{
+	margin-top: 5%;
+    margin-left: -26%;
+}
+.caption5{
+	margin-top: 5%;
+    margin-left: -30%;
+}
